@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CGPA Calculator</title>
+    
+    <!-- Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    
+    <style>
+        body {
+            background-image: url('sppu.jpg');
+            background-size: cover;
+            font-family: Arial, sans-serif;
+            color: #333;
+            padding: 50px;
+            margin: 0;
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .card {
+            max-width: 500px;
+            width: 100%;
+            background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent white background */
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); /* Soft shadow */
+        }
+
+        .form-group label {
+            font-weight: bold;
+        }
+
+        #result {
+            margin-top: 20px;
+            font-size: 20px;
+            text-align: center;
+        }
+    </style>
+
+</head>
+<body>
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-md-8 col-lg-6">
+                <div class="card">
+                    <h3 class="card-title text-center mb-4">SPPU's CGPA to Percentage Conversion</h3>
+                    <p class="text-center mb-4">(As Per 2019 Pattern)</p>
+                    <form id="cgpaForm">
+                        <div class="form-group">
+                            <label for="cgpaInput">Enter your CGPA (between 4.00 and 10.00)</label>
+                            <input type="number" id="cgpaInput" class="form-control" step="0.01" min="4.00" max="10.00" required>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-block">Calculate Percentage</button>
+                    </form>
+                    <div id="result"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Bootstrap JS and dependencies (jQuery and Popper.js) -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="cgpaCalculator.js"></script>
+</body>
+</html>
