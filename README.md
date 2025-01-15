@@ -25,5 +25,5 @@ The project uses:
 - **JavaScript** for implementing the conversion logic.
 
 ## Live Demo
-To see a live demo of the project, visit: [SPPU CGPA to Percentage Conversion](https://github.com/mrpawarGit/SPPU-CGPA-to-Percentage-Conversion)
+To see a live demo of the project, visit: [SPPU CGPA to Percentage Conversion](https://mrpawargit.github.io/SPPU-CGPA-to-Percentage-Conversion/)
 
