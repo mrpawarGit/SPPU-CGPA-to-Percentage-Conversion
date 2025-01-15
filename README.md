@@ -1,6 +1,6 @@
 # SPPU CGPA to Percentage Conversion
 
-VISIT : https://mrpawargit.github.io/SPPU-CGPA-to-Percentage-Conversion/
+VISIT : [SPPU CGPA to Percentage Conversion](https://mrpawargit.github.io/SPPU-CGPA-to-Percentage-Conversion/)
 
 This repository provides a web-based tool to convert CGPA (Cumulative Grade Point Average) to percentage as per the official formula used by Savitribai Phule Pune University (SPPU). The tool is developed using JavaScript and HTML for simplicity and accessibility.
 
